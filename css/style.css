@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #454545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: #FFE6C7;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#output{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+#btnCopy{
+    width: 100%;
+    margin-top: 8px;
+    border: 3px outset white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.label{
+    margin-top: 3px;
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#length{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+#number{
+    margin-top: 6px;
+}
+#generate{
+    width: 100%;
+    border: 3px outset white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+    
